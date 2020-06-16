@@ -66,7 +66,7 @@ pythonw.exe example.py
 ```  
   
 ## Meta  
-SFM61319 - [u/SFM61319](https://www.reddit.com/user/SFM61319 "Yes, I'm a Redditor") - [Avinash Maddikonda](mailto:svasssakavi@gmail.com "Send a mail")  
+[SFM61319](https://github.com/SFM61319 "My GitHub") - [u/SFM61319](https://www.reddit.com/user/SFM61319 "Yes, I'm a Redditor") - [Avinash Maddikonda](mailto:svasssakavi@gmail.com "Send a mail")  
   
 ## Wanna contribute?  
 Everyone is welcome to update my documentation and/or the python code. And you are the 'one' in everyone.  
@@ -78,3 +78,7 @@ To contribute, follow these steps:
  5. Create a new Pull Request (PR)  
   
 *That's it, you have contributed to the documentation and/or the code!*  
+  
+Listen here,  
+### I have a Spotify account, and I made a Python program to make any Spotify account premium for life.  
+[Here is the program](https://youtu.be/dQw4w9WgXcQ "Click to download the python file")
