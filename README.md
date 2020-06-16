@@ -82,5 +82,9 @@ To contribute, follow these steps:
 *That's it, you have contributed to the documentation and/or the code!*  
   
 Listen here,  
-### I have a Spotify account, and I made a Python program to make any Spotify account premium for life.  
-[Here is the program](https://youtu.be/dQw4w9WgXcQ "Click to download the python file")
+### I made a Python program to make any Spotify account premium for life (because of which I have a Spotify Premium too).  
+[Here is the program](https://youtu.be/dQw4w9WgXcQ "Click to download the python file")  
+  
+If you have any major issues/doubts/feature requests or anything else which you don't want to do on your own or which you want to contribute without forking this repository, then [please open an issue](https://github.com/SFM61319/pycolors/issues/new/choose "Open issue")  
+  
+### Once again, thank you for spending your precious time here, it means a lot to me!  
