@@ -18,16 +18,6 @@ __authorinfo__ = \
     }
 
 
-# Hidden function `_type` to get the exact type of an object in strings
-def _type(object_or_name):
-    """Returns the exact type of *object_or_name* using `type`
-"""
-
-    type_ = str(type(object_or_name)).replace('<class ', '').replace('>', '')
-
-    return type_
-
-
 # A class to print in different colors (command-line only)
 class Styles:
     """Styles class
@@ -127,6 +117,7 @@ colors of succeeding text occurences
         SPOTIFYGREEN = spotifygreen = '\x1b[38;2;29;185;84m'
         WINDOWSBLUE = '\x1b[38;2;0;120;215m'
 
+        @staticmethod
         def n(intensity=0):
             """Returns calculated ANSI color code for unnamed bg colors
 
@@ -149,6 +140,7 @@ information on how to use the function to get a color
 
             return f'\x1b[38;5;{intensity}m'
 
+        @staticmethod
         def rgb(red=0, blue=0, green=0):
             """Returns calculated ANSI color code for unnamed fg colors
 
@@ -200,6 +192,7 @@ colors of succeeding text occurences"""
         SPOTIFYGREEN = spotifygreen = '\x1b[48;2;29;185;84m'
         WINDOWSBLUE = '\x1b[48;2;0;120;215m'
 
+        @staticmethod
         def n(intensity=255):
             """Returns calculated ANSI color code for unnamed bg colors
 
@@ -222,6 +215,7 @@ information on how to use the function to get a color
 
             return f'\x1b[48;5;{intensity}m'
 
+        @staticmethod
         def rgb(red=255, blue=255, green=255):
             """Returns calculated ANSI color code for unnamed bg colors
 
@@ -406,6 +400,16 @@ This class is completely different from the class
     WHITESMOKE = '#f5f5f5'
     YELLOW = '#ffff00'
     YELLOWGREEN = '#9acd32'
+
+
+# Hidden function `_type` to get the exact type of an object in strings
+def _type(object_or_name):
+    """Returns the exact type of *object_or_name* using `type`
+"""
+
+    type_ = str(type(object_or_name)).replace('<class ', '').replace('>', '')
+
+    return type_
 
 
 # A function to clamp three values such that the value
