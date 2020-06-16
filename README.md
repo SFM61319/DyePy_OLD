@@ -69,7 +69,7 @@ pythonw.exe example.py
 SFM61319 - [u/SFM61319](https://www.reddit.com/user/SFM61319 "Yes, I'm a Redditor") - [Avinash Maddikonda](mailto:svasssakavi@gmail.com "Send a mail")  
   
 ## Wanna contribute?  
-Everyone is welcome to update my documentation and/or the python code. And you are the 'one' in the everyone.  
+Everyone is welcome to update my documentation and/or the python code. And you are the 'one' in everyone.  
 To contribute, follow these steps:  
  1. [Fork it](https://github.com/SFM61319/pycolors/fork "Click to fork!")  
  2. Create your feature branch by entering `git checkout -b feature/fooBar` on your [Git Bash](https://git-scm.com/download/win "Click to download")  
