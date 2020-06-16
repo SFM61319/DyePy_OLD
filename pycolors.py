@@ -17,6 +17,8 @@ __authorinfo__ = \
         'github': 'https://github.com/SFM61319'
     }
 
+__version__ = '0.0.1'
+
 
 # A class to print in different colors (command-line only)
 class Styles:
