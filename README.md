@@ -18,10 +18,10 @@ Or you can simply copy/write this example program and run it:
 ```python
 # Import tkinter for demonstatration of colors
 try:
-    from Tkinter import Label # Python 2
+    from Tkinter import Button  # Python 2
 
 except (ModuleNotFoundError, ImportError):
-    from tkinter import Label # Python 3
+    from tkinter import Button  # Python 3
 
 # Import randint for random integers in a range
 from random import randint  # Bad practice, but no collisions possible
