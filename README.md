@@ -43,7 +43,7 @@ def change_bgcolor():
     
     r, g, b = rgb_list
     
-    # Change the background color to an new color
+    # Change the background color to a new randomly generated color
     root.configure(background=pycolors.rgb(red=r, green=g, blue=b))
 
 
