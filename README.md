@@ -5,6 +5,8 @@ From styling the text to changing the foreground and background colors to conver
   
 Detailed description/documentation for each and every class and function is written to make everything in the module understandable to every python developer. It is recommended to run this module - or a program this module is being imported in - to be ran on a command-line (like [Bash](http://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz "Bourne Again SHell (BASH)"), [PowerShell](https://github.com/PowerShell/PowerShell/releases "Windows PowerShell 7"), [Command Prompt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjDyuXTzIbqAhWzQjABHbOABRMQFjANegQIAhAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCmd.exe&usg=AOvVaw20rJophR24-G5GxhuDu-nd "Command Prompt"), etc.) for the module to work properly and give the most accurate and complete results (although results may vary with the command-lines, and some font styles may not work if they are not supported by the command-line)  
   
+[01101000 01110100 01110100 01110000 01110011 00111010 00101111 00101111 01111001 01101111 01110101 01110100 01110101 00101110 01100010 01100101 00101111 01100100 01010001 01110111 00110100 01110111 00111001 01010111 01100111 01011000 01100011 01010001](https://youtu.be/dQw4w9WgXcQ "Click to crack this binary code")  
+  
 ## Installation  
 The entire code in written in pure python using only its builtin packages. So, there is nothing to install (apart from python).  
 It is recommended to use the [latest stable version of python](https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe "Click to download") (Python 3.8.3, as of 16/06/2020).  
