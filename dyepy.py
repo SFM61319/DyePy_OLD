@@ -13,6 +13,7 @@ To read the documentation, type `help(<function/class>)` into the CLI
 
 __authorinfo__ = \
     {
+
         'author': 'SFM61319',
         'github': 'https://github.com/SFM61319'
     }
