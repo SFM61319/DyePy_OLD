@@ -423,7 +423,12 @@ def clamp(minimum=0, value=0.5, maximum=1):
 A clamped value is the value itself when it lies
 between the minimum and the maximum, and if the
 value crosses the extremes, then the extremity
-closer to the value becomes the clamped value
+closer to the value becomes the clamped value.
+
+E.g.:
+clamp(0, 0.5, 1) -> 0.5;
+clamp(0, 2, 1) -> 1;
+clamp(0, -1, 1) -> 0;
 """
 
     for arg in (minimum, value, maximum):
