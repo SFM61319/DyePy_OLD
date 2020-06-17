@@ -132,4 +132,4 @@ dmypy.json
 .vscode
 
 # PyPI Package folder
-package
+package-dyepy

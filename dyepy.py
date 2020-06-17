@@ -1481,6 +1481,7 @@ and, the color values order is: cyan, magenta, yellow, key
 
 # Driver code
 if __name__ == '__main__':
+    print('Welcome to DyePy\'s mini command-line interpreter.\n')
     while True:
         # Acts like a command-line REFL for python
         func = eval(input('python> '))
