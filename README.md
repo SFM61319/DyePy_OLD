@@ -1,12 +1,12 @@
 # DyePy  
   
-> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")  
   
 A Python module to work with anything related to colors.  
   
 From styling the text to changing the foreground and background colors to converting colors to and from different color spaces, or defaulting them to Hexadecimal codes/values (as most Python modules support or only accept HEX codes), this module can easily help you with ALL of it. And yeah, it even has CSS3 color support (like named colors with their respective Hex values and some added colors - which are famous or are used/seen a lot).  
   
-Detailed description/documentation for each and every class and function is written to make everything in the module understandable to every python developer. It is recommended to run this module - or a program this module is being imported in - to be ran on a command-line (like [Bash](http://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz "Bourne Again SHell (BASH)"), [PowerShell](https://github.com/PowerShell/PowerShell/releases "Windows PowerShell 7"), [Command Prompt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjDyuXTzIbqAhWzQjABHbOABRMQFjANegQIAhAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCmd.exe&usg=AOvVaw20rJophR24-G5GxhuDu-nd "Command Prompt"), etc.) for the module to work properly and give the most accurate and complete results (although results may vary with the command-lines, and some font styles may not work if they are not supported by the command-line)  
+Detailed description/documentation for each and every class and function is written to make everything in the module understandable to every python developer. It is recommended to run this module - or a program this module is being imported in to be ran - on a command-line (like [Bash](http://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz "Bourne Again SHell (BASH)"), [PowerShell](https://github.com/PowerShell/PowerShell/releases "Windows PowerShell 7"), [Command Prompt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjDyuXTzIbqAhWzQjABHbOABRMQFjANegQIAhAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCmd.exe&usg=AOvVaw20rJophR24-G5GxhuDu-nd "Command Prompt"), etc.) for the module to work properly and give the most accurate and complete results (although results may vary with the command-lines, and some font styles may not work if they are not supported by the command-line)  
   
 ## Installation  
 Install this package using the following command:  
