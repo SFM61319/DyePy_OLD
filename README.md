@@ -8,7 +8,7 @@ Detailed description/documentation for each and every class and function is writ
 ## Installation  
 Install this package using the following command:  
 ```powershell  
-pip install dyepy
+python.exe -m pip install dyepy
 ```  
 The entire code in written in pure python, without any packages.  
 It is recommended to use the [latest stable version of python](https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe "Click to download") (Python 3.8.3, as of 16/06/2020).  
@@ -22,10 +22,10 @@ Or you can simply copy/write this example program and run it:
 ```python
 # Import tkinter for demonstatration of colors
 try:
-    from Tkinter import Button  # Python 2
+    from Tkinter import Tk, Button  # Python 2
 
 except (ModuleNotFoundError, ImportError):
-    from tkinter import Button  # Python 3
+    from tkinter import Tk, Button  # Python 3
 
 # Import randint for random integers in a range
 from random import randint  # Bad practice, but no collisions possible
