@@ -1,4 +1,4 @@
-# Dyepy  
+# DyePy  
 A Python module to work with anything related to colors.  
   
 From styling the text to changing the foreground and background colors to converting colors to and from different color spaces, or defaulting them to Hexadecimal codes/values (as most Python modules support or only accept HEX codes), this module can easily help you with ALL of it. And yeah, it even has CSS3 color support (like named colors with their respective Hex values and some added colors - which are famous or are used/seen a lot).  
