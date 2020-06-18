@@ -13,7 +13,7 @@ Install this package using the following command:
 ```powershell  
 python.exe -m pip install dyepy
 ```  
-The entire code in written in pure python, without any packages.  
+The entire code in written in pure python, without any packages, so you don't require any internal/external packages to run/use this module.
 It is recommended to use the [latest stable version of python](https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe "Click to download") (Python 3.8.3, as of 16/06/2020).  
   
 ## Usage (example) 
@@ -21,6 +21,10 @@ You can either simply run the file to use its own mini command-line (kinda) usin
 ```powershell
 python.exe dyepy.py
 ```  
+
+###### You'll either need to [download dyepy](https://github.com/SFM61319/DyePy/archive/master.zip) or go to the installation folder and run the command from that folder
+*[that folder]: C:\Users\<UserName>\AppData\Local\Programs\Python\Python3x\lib\site-packages\dyepy\
+  
 Or you can simply copy/write this example program and run it:  
 ```python
 # Import tkinter for demonstatration of colors
@@ -89,3 +93,9 @@ To contribute, follow these steps:
 If you have any major issues/doubts/feature requests or anything else which you don't want to do on your own or which you want to contribute without forking this repository, then [please open an issue](https://github.com/SFM61319/dyepy/issues/new/choose "Open issue")  
   
 ### Once again, thank you for spending your precious time here, it means a lot to me!  
+  
+## Changelogs (0.0.1 -> 0.0.2)  
+ - Added a missed feature to [class Colors](https://github.com/SFM61319/DyePy/blob/master/dyepy.py#L250)  
+ - Error handling is more efficient when the module ([DyePy](https://github.com/SFM61319/DyePy/blob/master/dyepy.py)) is run directly on a command-line (as a mini command-line interpreter)  
+ - Added more information to [installation](https://github.com/SFM61319/DyePy#installation "How to install")  
+ - Added more information to [usage](https://github.com/SFM61319/DyePy#usage-example "How to use")  

@@ -18,7 +18,7 @@ __authorinfo__ = \
         'github': 'https://github.com/SFM61319'
     }
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 
 # A class to print in different colors (command-line only)
@@ -401,6 +401,7 @@ This class is completely different from the class
     WHEAT = '#f5deb3'
     WHITE = '#ffffff'
     WHITESMOKE = '#f5f5f5'
+    WINDOWSBLUE = '#0078d7'
     YELLOW = '#ffff00'
     YELLOWGREEN = '#9acd32'
 
@@ -1490,5 +1491,17 @@ if __name__ == '__main__':
     print('Welcome to DyePy\'s mini command-line interpreter.\n')
     while True:
         # Acts like a command-line REFL for python
-        func = eval(input('python> '))
+        func = input('python> ')
+
+        try:
+            func = eval(func)
+
+        except (SyntaxError, Exception):
+
+            if func == '' or func.isspace():    # Empty line
+                func = None
+
+            else:   # Any other error handled by printing this *func*
+                func = 'Invalid statement/function call!'
+
         print(func) if func is not None else None
