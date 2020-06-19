@@ -102,7 +102,7 @@ If you have any major issues/doubts/feature requests or anything else which you 
 ### Once again, thank you for spending your precious time here, it means a lot to me!  
   
 ## Changelogs  
-### (0.0.1 → 0.0.2)  
+#### (0.0.1 → 0.0.2)  
  - Added a missed feature to [class Colors](https://github.com/SFM61319/DyePy/blob/master/dyepy.py#L250)  
  - Error handling is more efficient when the module ([DyePy](https://github.com/SFM61319/DyePy/blob/master/dyepy.py)) is run directly on a command-line (as a mini command-line interpreter)  
  - Added more information to [installation](https://github.com/SFM61319/DyePy#installation "How to install")  
