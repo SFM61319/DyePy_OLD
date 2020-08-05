@@ -1,0 +1,8 @@
+README.md
+setup.py
+dyepy/__init__.py
+dyepy/dyepy.py
+dyepy_SFM61319.egg-info/PKG-INFO
+dyepy_SFM61319.egg-info/SOURCES.txt
+dyepy_SFM61319.egg-info/dependency_links.txt
+dyepy_SFM61319.egg-info/top_level.txt
