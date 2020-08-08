@@ -7,7 +7,7 @@ modules = ['dyepy',]
 
 setuptools.setup(
     name='dyepy',
-    version='0.0.4',
+    version='0.0.5',
     author='SFM61319',
     author_email='svasssakavi@gmail.com',
     description='A styling and color conversion module as a mini CLI',
