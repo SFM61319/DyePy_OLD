@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 modules = ['dyepy',]
 
 setuptools.setup(
-    name='dyepy-SFM61319',
+    name='dyepy',
     version='0.0.4',
     author='SFM61319',
     author_email='svasssakavi@gmail.com',
@@ -14,6 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/SFM61319/DyePy',
+    download_url = 'https://pypi.org/project/dyepy/',
     packages=setuptools.find_packages(),
     py_modules=modules,
     classifiers=[
